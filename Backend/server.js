@@ -14,7 +14,7 @@ require('dotenv').config();
 
 const cors = require('cors');
 app.use(cors({
-  origin: 'https://voranty-frontend-8exe.vercel.app',
+  origin: 'https://vorenty.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 })); 
